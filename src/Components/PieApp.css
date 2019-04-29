@@ -1,0 +1,28 @@
+.PieApp {
+
+    background: #343a40!important;
+    color: #f1f2f2;
+    height: 250px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.copy{
+    padding-top: 20px;
+    font-size: 70%;
+
+}
+.iconos{
+    text-decoration: none;
+    color: #f1f2f2;
+    padding: 10px;
+    font-size:150%;
+}
+.iconos:hover {
+   /* color:blue;*/
+   color: #03d277;
+
+}
