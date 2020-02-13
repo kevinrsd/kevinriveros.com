@@ -16,7 +16,7 @@ class PieApp extends Component{
                 <a className="iconos" href="mailto:kevinriverosg@gmail.com"><i className="fas fa-envelope"></i></a>
 
                 </div>
-                <h4 className="copy">&copy;Copyright Kevin Riveros. All rights reserved.</h4>
+                <h4 className="copy">&copy;Copyright Kevin Riveros. All rights reserved. {new Date().getFullYear()}</h4>
 
             </div>
            

@@ -7,6 +7,7 @@
    background: transparent;
    border-color: transparent;
 }
+
 /*.navApp{
     color: black;
     font-size: 120%;
@@ -40,6 +41,17 @@
     color: #f1f2f2;
     background-size: 1px 100%;
     text-decoration: none
+}
+
+.nav-link{
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:#03d277 !important;
+}
+.navbar-brand{
+    color:#03d277 !important;
+    font-weight: bold;
 }
 /*.navApp:hover{
     /*color: #305e8a;*/

@@ -3,22 +3,17 @@ import Particles from "react-particles-js";
 
 export default () => (
   <div
-    style={{
-      'position': 'absolute',
-      'top': '0',
-      'left': '0',
-      'width': '100%',
-      'height': '100%',
-    }}
+    className="canvas"
   >
     <Particles
-      params={{
-        "particles": {
+      params={
+        {
+          "particles": {
             "number": {
-              "value": 100,
+              "value": 66,
               "density": {
                 "enable": true,
-                "value_area": 900
+                "value_area": 710.2328774690454
               }
             },
             "color": {
@@ -33,6 +28,11 @@ export default () => (
               "polygon": {
                 "nb_sides": 5
               },
+              "image": {
+                "src": "img/github.svg",
+                "width": 100,
+                "height": 100
+              }
             },
             "opacity": {
               "value": 0.5,
@@ -45,7 +45,7 @@ export default () => (
               }
             },
             "size": {
-              "value": 3,
+              "value": 1,
               "random": true,
               "anim": {
                 "enable": false,
@@ -81,7 +81,7 @@ export default () => (
             "events": {
               "onhover": {
                 "enable": true,
-                "mode": "grab"
+                "mode": "repulse"
               },
               "onclick": {
                 "enable": true,
@@ -91,7 +91,7 @@ export default () => (
             },
             "modes": {
               "grab": {
-                "distance": 140,
+                "distance": 400,
                 "line_linked": {
                   "opacity": 1
                 }
@@ -116,7 +116,8 @@ export default () => (
             }
           },
           "retina_detect": true
-      }}
+        }     
+      }
     />
   </div>
 );
